@@ -1,4 +1,4 @@
-import { GameQuery } from "../App";
+
 import usePlatforms, { Platform } from "./usePlatforms";
 
 const usePlatform = (id?: number) =>{

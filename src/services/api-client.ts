@@ -1,5 +1,4 @@
 import axios, {AxiosRequestConfig, CanceledError} from "axios"
-import { GameQuery } from "../App";
 export interface FetchResponse<T>{
     count: number;
     results: T[];
