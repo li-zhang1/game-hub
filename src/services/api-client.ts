@@ -23,6 +23,10 @@ class APIClient<T> {
             .then(res => res.data.results)
     }
 
+    get = (id: number | string) => {
+        return axioInstance.get<T>(this.endpoint + "/" + id).then(res => res.data)
+    }
+
 
 }
 
